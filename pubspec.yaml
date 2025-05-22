@@ -14,64 +14,58 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_localizations:
+  flutter_localizations:  # Flutter 国际化支持tdesign_flutter
     sdk: flutter
-  url_launcher: ^6.3.1
+  url_launcher: ^6.3.1  # 用于启动 URL（网页链接、电话、邮件等）
 
-  # 网络检测 https://pub.flutter-io.cn/packages/connectivity
-  connectivity: 3.0.6
-  cupertino_icons: ^1.0.6
-  flutter_chat_ui: ^1.6.15
-  get: ^4.6.6
-  get_storage: ^2.1.1
-  dio: ^4.0.6
-  shared_preferences: ^2.3.2
-  # 日志
-  logger: 2.1.0
-  # 线程锁  
-  synchronized: ^3.0.0+3
-  device_info_plus: ^10.1.2
-  package_info_plus: ^8.0.2
-  built_collection: ^5.1.1
-  flutter_screenutil: ^5.9.3
-  get_time_ago: ^2.0.0
-  contained_tab_bar_view: ^0.8.0
-  fluwx: ^4.5.5
-  # - bruno所需的 - #
-  bindings_compatible: ^1.0.1
-  path_drawing: ^1.0.1
-  xml: ^6.5.0
-  flutter_chat_types: ^3.6.2
-  uuid: ^4.5.1
-  intl: ^0.19.0
-  tdesign_flutter: ^0.1.6
-  easy_refresh: ^3.4.0
-  lottie: ^3.1.2
-  permission_handler: ^11.3.1
-  json_annotation: ^4.8.1
-  bubble: ^1.2.1
-  voice_to_text: ^1.0.3
-  speech_to_text: ^6.6.2
-  photo_view: ^0.15.0
-  tencentcloud_cos_sdk_plugin: ^1.1.7
-  image_picker: ^1.1.1
-
-  # 图片压缩
-  flutter_image_compress: ^2.3.0
-  slider_captcha: ^1.0.0
-  webview_flutter: ^4.8.0
-  just_audio: ^0.9.41
-  sign_in_with_apple: ^6.1.3
-  auth_buttons: ^3.0.3
-  video_player: ^2.9.2
-  image_gallery_saver: ^2.0.3
+  connectivity: 3.0.6  # 网络连接状态检测
+  cupertino_icons: ^1.0.6  # iOS 风格图标
+  flutter_chat_ui: ^1.6.15  # 聊天界面 UI 组件
+  get: ^4.6.6  # 状态管理、路由管理和依赖注入框架
+  get_storage: ^2.1.1  # 基于 Get 的本地存储解决方案
+  dio: ^4.0.6  # 强大的 HTTP 网络请求库
+  shared_preferences: ^2.3.2  # 本地键值对存储
+  logger: 2.1.0  # 日志记录工具
+  synchronized: ^3.0.0+3  # 线程同步锁
+  device_info_plus: ^10.1.2  # 获取设备信息
+  package_info_plus: ^8.0.2  # 获取应用包信息
+  built_collection: ^5.1.1  # 不可变集合类型
+  flutter_screenutil: ^5.9.3  # 屏幕适配工具
+  get_time_ago: ^2.0.0  # 将时间转换为"多久之前"格式
+  contained_tab_bar_view: ^0.8.0  # 自定义 TabBar 视图
+  fluwx: ^4.5.5  # 微信 SDK Flutter 插件
+  bindings_compatible: ^1.0.1  # 用于 Bruno UI 组件的依赖
+  path_drawing: ^1.0.1  # 路径绘制工具
+  xml: ^6.5.0  # XML 解析和生成
+  flutter_chat_types: ^3.6.2  # 聊天消息类型定义
+  uuid: ^4.5.1  # UUID 生成器
+  intl: ^0.19.0  # 国际化和本地化支持
+  tdesign_flutter: ^0.2.0  # 腾讯 TDesign UI 组件库
+  easy_refresh: ^3.4.0  # 下拉刷新和上拉加载
+  lottie: ^3.1.2  # Lottie 动画支持
+  permission_handler: ^11.3.1  # 权限请求处理
+  json_annotation: ^4.8.1  # JSON 序列化注解
+  bubble: ^1.2.1  # 聊天气泡组件
+  voice_to_text: ^1.0.3  # 语音转文字
+  speech_to_text: ^6.6.2  # 语音识别
+  photo_view: ^0.15.0  # 图片查看器，支持缩放
+  tencentcloud_cos_sdk_plugin: ^1.1.7  # 腾讯云对象存储 SDK
+  image_picker: ^1.0.8  # 图片选择器
+  flutter_image_compress: ^2.3.0  # 图片压缩
+  slider_captcha: ^1.0.0  # 滑块验证码
+  webview_flutter: ^4.8.0  # Flutter WebView 组件
+  just_audio: ^0.9.41  # 音频播放器
+  sign_in_with_apple: ^6.1.3  # Apple 登录
+  auth_buttons: ^3.0.3  # 社交登录按钮
+  video_player: ^2.9.2  # 视频播放器
+  image_gallery_saver: ^2.0.3  # 图片保存到相册
 
 dev_dependencies:
-  flutter_test:
+  flutter_test:  # Flutter 测试框架
     sdk: flutter
-  flutter_lints: ^3.0.0
-  json_serializable: ^6.8.0
-  build_runner: ^2.0.5
+  flutter_lints: ^3.0.0  # Flutter 代码规范检查
+  json_serializable: ^6.8.0  # JSON 序列化代码生成
+  build_runner: ^2.0.5  # 代码生成器运行工具
 
 flutter:
   uses-material-design: true

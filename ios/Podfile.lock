@@ -56,9 +56,9 @@ PODS:
     - QCloudCore (= 6.4.3)
   - QCloudTrack/Beacon (6.4.3)
   - Reachability (3.7.6)
-  - SDWebImage (5.19.7):
-    - SDWebImage/Core (= 5.19.7)
-  - SDWebImage/Core (5.19.7)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
   - SDWebImageWebPCoder (0.14.6):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.17)
@@ -176,7 +176,7 @@ SPEC CHECKSUMS:
   QCloudCOSXML: 46b57292baaab179679f48288f85443deae806b3
   QCloudTrack: 0afbb64be458d2f1d0d3815a60d35f336ca77be7
   Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
-  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
   shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
   sign_in_with_apple: f3bf75217ea4c2c8b91823f225d70230119b8440
